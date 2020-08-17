@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC39240524EAF1D2004105D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39240424EAF1D2004105D8 /* AppDelegate.swift */; };
+		CC39240724EAF1D2004105D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39240624EAF1D2004105D8 /* ViewController.swift */; };
+		CC39240A24EAF1D2004105D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC39240824EAF1D2004105D8 /* Main.storyboard */; };
+		CC39240D24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC39240B24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodeld */; };
+		CC39240F24EAF1D4004105D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC39240E24EAF1D4004105D8 /* Assets.xcassets */; };
+		CC39241224EAF1D4004105D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC39241024EAF1D4004105D8 /* LaunchScreen.storyboard */; };
+		CC39241D24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39241C24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.swift */; };
+		CC39242824EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39242724EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.swift */; };
+		CC39243624EAF382004105D8 /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = CC39243524EAF382004105D8 /* Weather.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC39241924EAF1D4004105D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3923F924EAF1D2004105D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC39240024EAF1D2004105D8;
+			remoteInfo = Yasmin_A_WeatherApp_Exercise;
+		};
+		CC39242424EAF1D4004105D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3923F924EAF1D2004105D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC39240024EAF1D2004105D8;
+			remoteInfo = Yasmin_A_WeatherApp_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC39240124EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasmin_A_WeatherApp_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC39240424EAF1D2004105D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC39240624EAF1D2004105D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC39240924EAF1D2004105D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC39240C24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yasmin_A_WeatherApp_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		CC39240E24EAF1D4004105D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC39241124EAF1D4004105D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC39241324EAF1D4004105D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC39241824EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_WeatherApp_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC39241C24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_WeatherApp_ExerciseTests.swift; sourceTree = "<group>"; };
+		CC39241E24EAF1D4004105D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC39242324EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_WeatherApp_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC39242724EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_WeatherApp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		CC39242924EAF1D4004105D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC39243524EAF382004105D8 /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Weather.png; path = ../../../../../Downloads/Weather.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3923FE24EAF1D2004105D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39241524EAF1D4004105D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39242024EAF1D4004105D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3923F824EAF1D2004105D8 = {
+			isa = PBXGroup;
+			children = (
+				CC39240324EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */,
+				CC39241B24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests */,
+				CC39242624EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests */,
+				CC39240224EAF1D2004105D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC39240224EAF1D2004105D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC39240124EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.app */,
+				CC39241824EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.xctest */,
+				CC39242324EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC39240324EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				CC39240424EAF1D2004105D8 /* AppDelegate.swift */,
+				CC39240624EAF1D2004105D8 /* ViewController.swift */,
+				CC39240824EAF1D2004105D8 /* Main.storyboard */,
+				CC39243524EAF382004105D8 /* Weather.png */,
+				CC39240E24EAF1D4004105D8 /* Assets.xcassets */,
+				CC39241024EAF1D4004105D8 /* LaunchScreen.storyboard */,
+				CC39241324EAF1D4004105D8 /* Info.plist */,
+				CC39240B24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodeld */,
+			);
+			path = Yasmin_A_WeatherApp_Exercise;
+			sourceTree = "<group>";
+		};
+		CC39241B24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC39241C24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.swift */,
+				CC39241E24EAF1D4004105D8 /* Info.plist */,
+			);
+			path = Yasmin_A_WeatherApp_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		CC39242624EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC39242724EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.swift */,
+				CC39242924EAF1D4004105D8 /* Info.plist */,
+			);
+			path = Yasmin_A_WeatherApp_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC39240024EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC39242C24EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_Exercise" */;
+			buildPhases = (
+				CC3923FD24EAF1D2004105D8 /* Sources */,
+				CC3923FE24EAF1D2004105D8 /* Frameworks */,
+				CC3923FF24EAF1D2004105D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yasmin_A_WeatherApp_Exercise;
+			productName = Yasmin_A_WeatherApp_Exercise;
+			productReference = CC39240124EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC39241724EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC39242F24EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_ExerciseTests" */;
+			buildPhases = (
+				CC39241424EAF1D4004105D8 /* Sources */,
+				CC39241524EAF1D4004105D8 /* Frameworks */,
+				CC39241624EAF1D4004105D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC39241A24EAF1D4004105D8 /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_WeatherApp_ExerciseTests;
+			productName = Yasmin_A_WeatherApp_ExerciseTests;
+			productReference = CC39241824EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC39242224EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC39243224EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_ExerciseUITests" */;
+			buildPhases = (
+				CC39241F24EAF1D4004105D8 /* Sources */,
+				CC39242024EAF1D4004105D8 /* Frameworks */,
+				CC39242124EAF1D4004105D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC39242524EAF1D4004105D8 /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_WeatherApp_ExerciseUITests;
+			productName = Yasmin_A_WeatherApp_ExerciseUITests;
+			productReference = CC39242324EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3923F924EAF1D2004105D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Yasmin Alberto Ruiz";
+				TargetAttributes = {
+					CC39240024EAF1D2004105D8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CC39241724EAF1D4004105D8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC39240024EAF1D2004105D8;
+					};
+					CC39242224EAF1D4004105D8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC39240024EAF1D2004105D8;
+					};
+				};
+			};
+			buildConfigurationList = CC3923FC24EAF1D2004105D8 /* Build configuration list for PBXProject "Yasmin_A_WeatherApp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3923F824EAF1D2004105D8;
+			productRefGroup = CC39240224EAF1D2004105D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC39240024EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */,
+				CC39241724EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests */,
+				CC39242224EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3923FF24EAF1D2004105D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39241224EAF1D4004105D8 /* LaunchScreen.storyboard in Resources */,
+				CC39240F24EAF1D4004105D8 /* Assets.xcassets in Resources */,
+				CC39243624EAF382004105D8 /* Weather.png in Resources */,
+				CC39240A24EAF1D2004105D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39241624EAF1D4004105D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39242124EAF1D4004105D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3923FD24EAF1D2004105D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39240724EAF1D2004105D8 /* ViewController.swift in Sources */,
+				CC39240524EAF1D2004105D8 /* AppDelegate.swift in Sources */,
+				CC39240D24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39241424EAF1D4004105D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39241D24EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC39241F24EAF1D4004105D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39242824EAF1D4004105D8 /* Yasmin_A_WeatherApp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC39241A24EAF1D4004105D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC39240024EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */;
+			targetProxy = CC39241924EAF1D4004105D8 /* PBXContainerItemProxy */;
+		};
+		CC39242524EAF1D4004105D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC39240024EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise */;
+			targetProxy = CC39242424EAF1D4004105D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC39240824EAF1D2004105D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC39240924EAF1D2004105D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC39241024EAF1D4004105D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC39241124EAF1D4004105D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC39242A24EAF1D4004105D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		CC39242B24EAF1D4004105D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC39242D24EAF1D4004105D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CC39242E24EAF1D4004105D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CC39243024EAF1D4004105D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_WeatherApp_Exercise.app/Yasmin_A_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		CC39243124EAF1D4004105D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_ExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_WeatherApp_Exercise.app/Yasmin_A_WeatherApp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		CC39243324EAF1D4004105D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Yasmin_A_WeatherApp_Exercise;
+			};
+			name = Debug;
+		};
+		CC39243424EAF1D4004105D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_WeatherApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-WeatherApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Yasmin_A_WeatherApp_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3923FC24EAF1D2004105D8 /* Build configuration list for PBXProject "Yasmin_A_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39242A24EAF1D4004105D8 /* Debug */,
+				CC39242B24EAF1D4004105D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC39242C24EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39242D24EAF1D4004105D8 /* Debug */,
+				CC39242E24EAF1D4004105D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC39242F24EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39243024EAF1D4004105D8 /* Debug */,
+				CC39243124EAF1D4004105D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC39243224EAF1D4004105D8 /* Build configuration list for PBXNativeTarget "Yasmin_A_WeatherApp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39243324EAF1D4004105D8 /* Debug */,
+				CC39243424EAF1D4004105D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC39240B24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC39240C24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodel */,
+			);
+			currentVersion = CC39240C24EAF1D2004105D8 /* Yasmin_A_WeatherApp_Exercise.xcdatamodel */;
+			path = Yasmin_A_WeatherApp_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC3923F924EAF1D2004105D8 /* Project object */;
+}
